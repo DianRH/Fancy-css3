@@ -3,3 +3,24 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+.facebook-style-btn{
+  border-radius: 2px;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+}
+.facebook-style-dark{
+  -moz-box-shadow:     inset 0 1px 0 0 #4d73bf; /*first number it is the position of the shadow right or left, second it is up or down*/
+  -webkit-box-shadow:  inset 0 1px 0 0 #4d73bf; /*third is blur radius (desenfocar) and fourth it is spread radious (propagación) and inset is the shadow is in the box*/
+  box-shadow:          inset 0 1px 0 0 #4d73bf; /*clear example   https://cssgenerator.org/box-shadow-css-generator.html*/
+  background: #4267b2;
+  border: solid 1px #4267b2;
+  color: white;
+  text-shadow:  0 1px 0 #3359a5;
+}
+.facebook-style-dark:hover{
+  background: #2b4487;
+}
+.facebook-style-dark:active{
+  background: #1d4698;
+  border-color: #1d4698;
+}
