@@ -250,14 +250,13 @@ button {
      -webkit-transition: all 0.3s ease;
      transition: all 0.3s ease;
    }
+
    .final__gradient-button-2:hover {
      background-size: 100%;
      background-image: linear-gradient(to right, orangered, transparent);
      border-right-style: none;
      color: white;
    }
-
-
 
 /* =========================
    ANIMATED BUTTONS
@@ -280,7 +279,6 @@ button {
      -webkit-animation: loading-button-animation 2s linear infinite;
              animation: loading-button-animation 2s linear infinite;
    }
-
 
    .final__animated-button-2 {
      position: relative;
@@ -328,8 +326,6 @@ button {
        background-position: 40px 0;
      }
    }
-
-
 
 /* =========================
    TOGGLE SWITCH UI BUTTONS
@@ -381,7 +377,6 @@ button {
      color: #00b3b4;
    }
 
-
    .final__toggle-2 {
      font-family: Helvetica, Arial, sans-serif;
      font-size: 1rem;
@@ -416,11 +411,13 @@ button {
      content: "";
      transition: all 0.3s ease;
    }
+
    .final__toggle-2__input:checked + .final__toggle-2__button {
      background-color: #00b3b4;
      border-color: #00b3b4;
      color: #ffffff;
    }
+
    .final__toggle-2__input:checked + .final__toggle-2__button:before {
      background-color: #ffffff;
-   }
+  }
